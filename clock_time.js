@@ -12,7 +12,7 @@ function display(){
 
 setInterval(()=>{
     let date = new Date()
-    hour = date.getHours()
+    hour = date.getHours() + 1
     min = date.getMinutes()
     sec = date.getSeconds()
 
